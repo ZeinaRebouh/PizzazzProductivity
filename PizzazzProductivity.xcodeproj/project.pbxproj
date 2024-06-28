@@ -7,18 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD23ED8C2C2DF59E00496DD4 /* ToDoContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD23ED8B2C2DF59E00496DD4 /* ToDoContentView.swift */; };
+		BD23ED8E2C2DF64E00496DD4 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD23ED8D2C2DF64E00496DD4 /* ToDoItem.swift */; };
+		BD23ED902C2DF6CB00496DD4 /* ToDoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD23ED8F2C2DF6CB00496DD4 /* ToDoApp.swift */; };
+		BD23ED922C2DF71100496DD4 /* NewToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD23ED912C2DF71100496DD4 /* NewToDoView.swift */; };
+		BD23ED942C2E150600496DD4 /* QuotesContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD23ED932C2E150600496DD4 /* QuotesContentView.swift */; };
+		BD23ED962C2E160500496DD4 /* LazyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD23ED952C2E160500496DD4 /* LazyButton.swift */; };
+		BD23ED982C2E19D200496DD4 /* FakeTimerScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD23ED972C2E19D200496DD4 /* FakeTimerScreen.swift */; };
 		BDD87D102C2B5B130018023B /* PizzazzProductivityApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD87D0F2C2B5B130018023B /* PizzazzProductivityApp.swift */; };
 		BDD87D122C2B5B130018023B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD87D112C2B5B130018023B /* ContentView.swift */; };
 		BDD87D142C2B5B200018023B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDD87D132C2B5B200018023B /* Assets.xcassets */; };
 		BDD87D172C2B5B200018023B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDD87D162C2B5B200018023B /* Preview Assets.xcassets */; };
+		BDD87D1E2C2B65760018023B /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD87D1D2C2B65760018023B /* HomeScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD23ED8B2C2DF59E00496DD4 /* ToDoContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoContentView.swift; sourceTree = "<group>"; };
+		BD23ED8D2C2DF64E00496DD4 /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		BD23ED8F2C2DF6CB00496DD4 /* ToDoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoApp.swift; sourceTree = "<group>"; };
+		BD23ED912C2DF71100496DD4 /* NewToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewToDoView.swift; sourceTree = "<group>"; };
+		BD23ED932C2E150600496DD4 /* QuotesContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesContentView.swift; sourceTree = "<group>"; };
+		BD23ED952C2E160500496DD4 /* LazyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyButton.swift; sourceTree = "<group>"; };
+		BD23ED972C2E19D200496DD4 /* FakeTimerScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeTimerScreen.swift; sourceTree = "<group>"; };
 		BDD87D0C2C2B5B130018023B /* PizzazzProductivity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PizzazzProductivity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDD87D0F2C2B5B130018023B /* PizzazzProductivityApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzazzProductivityApp.swift; sourceTree = "<group>"; };
 		BDD87D112C2B5B130018023B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BDD87D132C2B5B200018023B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDD87D162C2B5B200018023B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BDD87D1D2C2B65760018023B /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +69,14 @@
 			children = (
 				BDD87D0F2C2B5B130018023B /* PizzazzProductivityApp.swift */,
 				BDD87D112C2B5B130018023B /* ContentView.swift */,
+				BD23ED972C2E19D200496DD4 /* FakeTimerScreen.swift */,
+				BD23ED8B2C2DF59E00496DD4 /* ToDoContentView.swift */,
+				BD23ED8D2C2DF64E00496DD4 /* ToDoItem.swift */,
+				BD23ED932C2E150600496DD4 /* QuotesContentView.swift */,
+				BD23ED952C2E160500496DD4 /* LazyButton.swift */,
+				BD23ED8F2C2DF6CB00496DD4 /* ToDoApp.swift */,
+				BD23ED912C2DF71100496DD4 /* NewToDoView.swift */,
+				BDD87D1D2C2B65760018023B /* HomeScreen.swift */,
 				BDD87D132C2B5B200018023B /* Assets.xcassets */,
 				BDD87D152C2B5B200018023B /* Preview Content */,
 			);
@@ -137,8 +161,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD23ED8C2C2DF59E00496DD4 /* ToDoContentView.swift in Sources */,
+				BD23ED962C2E160500496DD4 /* LazyButton.swift in Sources */,
+				BD23ED982C2E19D200496DD4 /* FakeTimerScreen.swift in Sources */,
+				BD23ED942C2E150600496DD4 /* QuotesContentView.swift in Sources */,
 				BDD87D122C2B5B130018023B /* ContentView.swift in Sources */,
+				BD23ED922C2DF71100496DD4 /* NewToDoView.swift in Sources */,
+				BD23ED8E2C2DF64E00496DD4 /* ToDoItem.swift in Sources */,
+				BD23ED902C2DF6CB00496DD4 /* ToDoApp.swift in Sources */,
 				BDD87D102C2B5B130018023B /* PizzazzProductivityApp.swift in Sources */,
+				BDD87D1E2C2B65760018023B /* HomeScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
